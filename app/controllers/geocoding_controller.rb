@@ -25,7 +25,7 @@ class GeocodingController < ApplicationController
 
     @latitude = @lat
 
-    @longitude = @long
+    @longitude = @lng
 
     render("geocoding/street_to_coords.html.erb")
   end
